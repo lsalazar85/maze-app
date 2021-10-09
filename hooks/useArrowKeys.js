@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
+import { STATUS } from "../constants";
 
 const useArrowKeys = () => {
-    const [x, setX] = useState (0);
+    const [x, setX] = useState (50);
     const [y, setY] = useState (0);
 
-    const increment = x => x + 1;
-    const decrement = x => x - 1;
+    const increment = x => x + 50;
+    const decrement = x => x - 50;
 
     const actionXMap = {
         ArrowLeft: decrement,
@@ -26,6 +27,10 @@ const useArrowKeys = () => {
     useEffect (() => {
         document.addEventListener ("keydown", handleKeyPress);
     }, [])
+
+    useEffect(() => {
+        x === 550 && y === 500 && console.log(STATUS)
+    }, [x, y])
 
     return { x, y }
 }

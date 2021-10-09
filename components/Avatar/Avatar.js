@@ -5,7 +5,7 @@ import ImageFile from '../../assets/images/dish.png'
 const Avatar = ({ x, y }) => {
     return(
         <AvatarContainer x={x} y={y}>
-            <Image src={ImageFile} width={30} height={30} />
+            <Image src={ImageFile} width={40} height={40} />
         </AvatarContainer>
     )
 }

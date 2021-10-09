@@ -1,9 +1,12 @@
 import styled from "styled-components";
 
 export const AvatarContainer = styled.div`
-  width: 30px;
-  height: 30px;
-  position: relative;
-  left: ${({ x }) => x+'rem'};
-  top: ${({ y }) => y+'rem'};
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: ${({ x }) => x+'px'};
+  top: ${({ y }) => y+'px'};
 `
