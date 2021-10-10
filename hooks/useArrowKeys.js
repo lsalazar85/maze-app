@@ -19,6 +19,7 @@ const reducer =  (state, { type, payload }) => {
             if(payload === "ArrowUp"){
                 return  {...state, y: state.y - 1}
             }
+            break
         }
         default:
             return state
