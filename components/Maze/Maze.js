@@ -9,7 +9,7 @@ const Maze = () => {
     const [finishWaze, setFinishWaze] = useState('')
 
     useEffect(() => {
-        if(state.x === 11 && state.y === 10){
+        if(state && state.x === 11 && state.y === 10){
             console.log(STATUS)
             setFinishWaze(`Great! You're free 🎉`)
         } else {
@@ -20,7 +20,7 @@ const Maze = () => {
     return(
         <>
             <MazeContainer id='maze-container'>
-                <Avatar x={state.x} y={state.y} />
+                <Avatar x={state && state.x} y={state && state.y} />
                 {grid.map((subArray, idx) => {
                     return (
                         <Tile key={idx}>
