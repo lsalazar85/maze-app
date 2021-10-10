@@ -6,6 +6,7 @@ import { Main } from "./styles";
 const Home = () => (
   <Main>
     <Head>
+        <title>Maze App</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <Maze />
