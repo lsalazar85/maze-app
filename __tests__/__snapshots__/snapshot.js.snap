@@ -1,76 +1,511 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders homepage unchanged 1`] = `
-<div
-  className="container"
+<main
+  className="styles__Main-sc-1idp24i-0 eonfWs"
 >
-  <main>
+  <div
+    className="styles__TitleContainer-sc-16jy8ol-0 jVFQos"
+  >
     <h1
-      className="title"
+      className="styles__H1Element-sc-16jy8ol-1 exeysa"
     >
-      Welcome to 
-      <a
-        href="https://nextjs.org"
-      >
-        Next.js!
-      </a>
+      Maze Game
     </h1>
-    <p
-      className="description"
-    >
-      Get started by editing 
-      <code>
-        pages/index.js
-      </code>
-    </p>
+  </div>
+  <section
+    className="styles__MazeContainer-sc-1w8rlqt-0 jwpBe"
+    id="maze-container"
+  >
     <div
-      className="grid"
+      className="styles__AvatarContainer-sc-djljgk-0 cNDNbf"
+      x={1}
+      y={0}
     >
-      <a
-        className="card"
-        href="https://nextjs.org/docs"
-      >
-        <h3>
-          Documentation →
-        </h3>
-        <p>
-          Find in-depth information about Next.js features and API.
-        </p>
-      </a>
-      <a
-        className="card"
-        href="https://nextjs.org/learn"
-      >
-        <h3>
-          Learn →
-        </h3>
-        <p>
-          Learn about Next.js in an interactive course with quizzes!
-        </p>
-      </a>
-      <a
-        className="card"
-        href="https://github.com/vercel/next.js/tree/master/examples"
-      >
-        <h3>
-          Examples →
-        </h3>
-        <p>
-          Discover and deploy boilerplate example Next.js projects.
-        </p>
-      </a>
-      <a
-        className="card"
-        href="https://vercel.com/new"
-      >
-        <h3>
-          Deploy →
-        </h3>
-        <p>
-          Instantly deploy your Next.js site to a public URL with Vercel.
-        </p>
-      </a>
+      <div
+        className="styles__AvatarIcon-sc-djljgk-1 jJTRkd"
+      />
     </div>
-  </main>
-</div>
+    <div
+      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
+    >
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+    </div>
+    <div
+      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
+    >
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+    </div>
+    <div
+      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
+    >
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+    </div>
+    <div
+      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
+    >
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+    </div>
+    <div
+      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
+    >
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+    </div>
+    <div
+      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
+    >
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+    </div>
+    <div
+      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
+    >
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+    </div>
+    <div
+      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
+    >
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+    </div>
+    <div
+      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
+    >
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+    </div>
+    <div
+      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
+    >
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+    </div>
+    <div
+      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
+    >
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
+      />
+    </div>
+    <div
+      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
+    >
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+      <div
+        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
+      />
+    </div>
+  </section>
+</main>
 `;

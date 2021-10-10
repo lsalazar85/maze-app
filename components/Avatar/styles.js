@@ -11,3 +11,10 @@ export const AvatarContainer = styled.div`
   left: ${({ x }) => x * 3.125 +'rem'};
   top: ${({ y }) => y * 3.125 +'rem'};
 `
+
+export const AvatarIcon = styled.div`
+  width: 2rem;
+  height: 2rem;
+  background: #7AD7A7;
+  border-radius: 3.125rem ;
+`
