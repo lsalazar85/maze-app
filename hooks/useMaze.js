@@ -5,19 +5,19 @@ const reducer =  (state, { type, payload }) => {
     switch(type) {
         case 'keyPress': {
             if(payload === "ArrowRight"){
-               return  {...state, x: state.x + 1}
+               return  {...state, x: state && state.x + 1}
             }
 
             if(payload === "ArrowLeft"){
-                return  {...state, x: state.x - 1}
+                return  {...state, x: state && state.x - 1}
             }
 
             if(payload === "ArrowDown"){
-                return  {...state, y: state.y + 1}
+                return  {...state, y: state && state.y + 1}
             }
 
             if(payload === "ArrowUp"){
-                return  {...state, y: state.y - 1}
+                return  {...state, y: state && state.y - 1}
             }
             break
         }

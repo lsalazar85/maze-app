@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+export const MazeWrapper = styled.main`
+  display: flex;
+  flex-direction: column;
+  position: relative;
+`
+
 export const MazeContainer = styled.section`
   width: 600px;
   height: 600px;
@@ -24,6 +30,7 @@ export const Cube = styled.div`
 
 export const Message = styled.span`
   font-size: 1rem;
-  margin-top: 2rem;
   font-weight: 700;
+  position: absolute;
+  bottom: 4rem;
 `
