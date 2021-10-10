@@ -1,11 +1,11 @@
 import {useEffect, useState} from "react";
 import { MazeContainer, Tile, Cube, Message } from "./styles";
 import Avatar from "@/components/Avatar";
-import useArrowKeys from "../../hooks/useArrowKeys";
+import useMaze from "../../hooks/useMaze";
 import {MAZE_MATRIX as grid, STATUS} from "../../constants";
 
 const Maze = () => {
-    const { state } = useArrowKeys()
+    const { state } = useMaze()
     const [finishWaze, setFinishWaze] = useState('')
 
     useEffect(() => {

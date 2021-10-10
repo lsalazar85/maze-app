@@ -26,7 +26,7 @@ const reducer =  (state, { type, payload }) => {
     }
 }
 
-const useArrowKeys = () => {
+const useMaze = () => {
     const [state, dispatch] = useReducer(reducer, { x: 1, y: 0});
 
     useEffect (() => {
@@ -38,4 +38,4 @@ const useArrowKeys = () => {
     return { state }
 }
 
-export default useArrowKeys
+export default useMaze
