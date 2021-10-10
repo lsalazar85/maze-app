@@ -17,5 +17,3 @@ export const STATUS = {
     "status": "OK",
     "message": "You're doing it great!"
 }
-
-export const MOVE_CONSTANT = 50

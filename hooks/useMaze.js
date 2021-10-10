@@ -1,5 +1,7 @@
-import { useState, useEffect, useReducer} from "react";
-import { STATUS, MOVE_CONSTANT, MAZE_MATRIX } from "../constants";
+import { useContext } from "react";
+import { useEffect, useReducer} from "react";
+import { MAZE_MATRIX as maze } from "../constants";
+import MainContext from "../context/MainContext";
 
 const reducer =  (state, { type, payload }) => {
     switch(type) {
@@ -27,13 +29,15 @@ const reducer =  (state, { type, payload }) => {
 }
 
 const useMaze = () => {
-    const [state, dispatch] = useReducer(reducer, { x: 1, y: 0});
+    const { position } = useContext(MainContext)
+    const [state, dispatch] = useReducer(reducer, position);
 
     useEffect (() => {
         const handleKeyPress = ({ key }) => dispatch({ type: 'keyPress', payload: key })
         document.addEventListener("keydown", handleKeyPress)
         return () => document.removeEventListener("keydown", handleKeyPress)
-    }, [])
+    }, [state])
+
 
     return { state }
 }

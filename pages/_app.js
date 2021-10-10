@@ -1,5 +1,6 @@
 import { ThemeProvider } from 'styled-components'
 import { GlobalStyle } from "../styles/GlobalStyles";
+import { MainContextProvider } from "../context/MainContext";
 
 const theme = {
   colors: {
@@ -11,9 +12,11 @@ export default function MyApp({ Component, pageProps }) {
   return (
       <>
         <GlobalStyle />
-        <ThemeProvider theme={theme}>
-          <Component {...pageProps} />
-        </ThemeProvider>
+        <MainContextProvider>
+            <ThemeProvider theme={theme}>
+                <Component {...pageProps} />
+            </ThemeProvider>
+        </MainContextProvider>
       </>
   )
 
