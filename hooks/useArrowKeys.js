@@ -1,38 +1,34 @@
-import { useState, useEffect } from "react";
-import { STATUS } from "../constants";
+import { useState, useEffect, useReducer} from "react";
+import { STATUS, MOVE_CONSTANT, MAZE_MATRIX } from "../constants";
 
 const useArrowKeys = () => {
-    const [x, setX] = useState (50);
-    const [y, setY] = useState (0);
-
-    const increment = x => x + 50;
-    const decrement = x => x - 50;
-
-    const actionXMap = {
-        ArrowLeft: decrement,
-        ArrowRight: increment
-    }
-    const actionYMap = {
-        ArrowDown: increment,
-        ArrowUp: decrement
-    }
-
-    const handleKeyPress = e => {
-        const actionX = actionXMap[e.key];
-        const actionY = actionYMap[e.key];
-        actionX && setX(actionX);
-        actionY && setY(actionY);
-    }
+    const [playerPosition, setPlayerPosition] = useState({ x: 1, y: 0 })
 
     useEffect (() => {
-        document.addEventListener ("keydown", handleKeyPress);
+        const handleKeyPress = e => {
+            switch(e.key){
+                case 'ArrowRight':
+                    setPlayerPosition(player => ({...player, x: player.x + 1}))
+                    break;
+
+                case 'ArrowLeft':
+                    setPlayerPosition(player => ({...player, x: player.x - 1}))
+                    break;
+
+                case 'ArrowDown':
+                    setPlayerPosition(player => ({...player, y: player.y + 1}))
+                    break;
+
+                case 'ArrowUp':
+                    setPlayerPosition(player => ({...player, y: player.y - 1}))
+                    break;
+            }
+        }
+        document.addEventListener("keydown", handleKeyPress)
+        return () => document.removeEventListener("keydown", handleKeyPress)
     }, [])
 
-    useEffect(() => {
-        x === 550 && y === 500 && console.log(STATUS)
-    }, [x, y])
-
-    return { x, y }
+    return { playerPosition }
 }
 
 export default useArrowKeys
