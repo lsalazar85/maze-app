@@ -5,22 +5,22 @@ import useArrowKeys from "../../hooks/useArrowKeys";
 import {MAZE_MATRIX as grid, STATUS} from "../../constants";
 
 const Maze = () => {
-    const { playerPosition } = useArrowKeys()
+    const { state } = useArrowKeys()
     const [finishWaze, setFinishWaze] = useState('')
 
     useEffect(() => {
-        if(playerPosition.x === 11 && playerPosition.y === 10){
+        if(state.x === 11 && state.y === 10){
             console.log(STATUS)
             setFinishWaze(`Great! You're free 🎉`)
         } else {
             setFinishWaze('')
         }
-    }, [playerPosition])
+    }, [state])
 
     return(
         <>
             <MazeContainer id='maze-container'>
-                <Avatar x={playerPosition.x} y={playerPosition.y} />
+                <Avatar x={state.x} y={state.y} />
                 {grid.map((subArray, idx) => {
                     return (
                         <Tile key={idx}>
