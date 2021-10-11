@@ -3,7 +3,7 @@
 exports[`Maze component render without props 1`] = `
 <DocumentFragment>
   <div
-    class="styles__TitleContainer-sc-16jy8ol-0 jVFQos"
+    class="styles__TitleContainer-sc-16jy8ol-0 epXWgE"
   >
     <h1
       class="styles__H1Element-sc-16jy8ol-1 exeysa"
@@ -15,7 +15,7 @@ exports[`Maze component render without props 1`] = `
 exports[`Maze should render correctly 1`] = `
 <DocumentFragment>
   <div
-    class="styles__TitleContainer-sc-16jy8ol-0 jVFQos"
+    class="styles__TitleContainer-sc-16jy8ol-0 epXWgE"
   >
     <h1
       class="styles__H1Element-sc-16jy8ol-1 exeysa"

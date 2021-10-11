@@ -1,26 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Avatar render component without props 1`] = `
-<DocumentFragment>
-  <div
-    class="styles__AvatarContainer-sc-djljgk-0 lkZmOs"
-  >
-    <div
-      class="styles__AvatarIcon-sc-djljgk-1 jJTRkd"
-    />
-  </div>
-</DocumentFragment>
-`;
-
 exports[`Avatar should render correctly 1`] = `
 <DocumentFragment>
   <div
-    class="styles__AvatarContainer-sc-djljgk-0 cNDNbf"
+    class="styles__AvatarContainer-sc-djljgk-0 fhuxRF"
     x="1"
     y="0"
   >
     <div
-      class="styles__AvatarIcon-sc-djljgk-1 jJTRkd"
+      class="styles__AvatarIcon-sc-djljgk-1 lhygVp"
     />
   </div>
 </DocumentFragment>

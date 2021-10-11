@@ -1,7 +1,12 @@
 import styled from "styled-components";
 
+export const MazeWrapper = styled.main`
+  display: flex;
+  flex-direction: column;
+`
+
 export const MazeContainer = styled.section`
-  width: 30rem;
+  width: 39rem;
   height: 30rem;
   position: relative;
   display: flex;
@@ -9,7 +14,7 @@ export const MazeContainer = styled.section`
   flex-wrap: wrap;
 `
 
-export const Tile = styled.div`
+export const Row = styled.div`
     display: flex;
     width: 100%;
     position: relative;
@@ -18,13 +23,15 @@ export const Tile = styled.div`
 export const Cube = styled.div`
   border: 1px solid #ffffff;
   display: flex;
-  flex: 1 1 2.5rem;
-  background: ${({ bg }) => bg === 1 ? '#000000' : '#ffffff'};
+  flex: 1 1 auto;
+  background: ${({ bg }) => bg ? '#000000' : '#ffffff'};
 `
 
-export const Message = styled.span`
-  font-size: 1rem;
-  font-weight: 700;
-  position: absolute;
-  bottom: 4rem;
+export const Moves = styled.div`
+  display: flex;
+  justify-content: flex-end;
+`
+
+export const MovesCount = styled.span`
+    font-weight: 700;
 `

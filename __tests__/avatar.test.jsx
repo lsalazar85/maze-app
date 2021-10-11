@@ -9,14 +9,7 @@ describe('Avatar', () => {
     const state = { x: 1, y: 0 }
 
     it('should render correctly', () => {
-        const { asFragment } = render(<Avatar x={state.x} y={state.y} />);
-
-        expect(asFragment()).toBeDefined();
-        expect(asFragment()).toMatchSnapshot();
-    })
-
-    it('render component without props', () => {
-        const { asFragment } = render(<Avatar />);
+        const { asFragment } = render(<Avatar position={state} />);
 
         expect(asFragment()).toBeDefined();
         expect(asFragment()).toMatchSnapshot();

@@ -5,7 +5,7 @@ exports[`renders homepage unchanged 1`] = `
   className="styles__Main-sc-1idp24i-0 eonfWs"
 >
   <div
-    className="styles__TitleContainer-sc-16jy8ol-0 jVFQos"
+    className="styles__TitleContainer-sc-16jy8ol-0 epXWgE"
   >
     <h1
       className="styles__H1Element-sc-16jy8ol-1 exeysa"
@@ -13,499 +13,512 @@ exports[`renders homepage unchanged 1`] = `
       Maze Game
     </h1>
   </div>
-  <section
-    className="styles__MazeContainer-sc-1w8rlqt-0 jwpBe"
-    id="maze-container"
+  <main
+    className="styles__MazeWrapper-sc-1w8rlqt-0 cVvARo"
   >
     <div
-      className="styles__AvatarContainer-sc-djljgk-0 cNDNbf"
-      x={1}
-      y={0}
+      className="styles__Moves-sc-1w8rlqt-4 evCIVo"
+    >
+      <span
+        className="styles__MovesCount-sc-1w8rlqt-5 gBCDKc"
+      >
+        moves: 
+        0
+      </span>
+    </div>
+    <section
+      className="styles__MazeContainer-sc-1w8rlqt-1 dxngsq"
     >
       <div
-        className="styles__AvatarIcon-sc-djljgk-1 jJTRkd"
-      />
-    </div>
-    <div
-      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-    </div>
-    <div
-      className="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        className="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-  </section>
+        className="styles__AvatarContainer-sc-djljgk-0 fhuxRF"
+        x={1}
+        y={0}
+      >
+        <div
+          className="styles__AvatarIcon-sc-djljgk-1 lhygVp"
+        />
+      </div>
+      <div
+        className="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        className="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        className="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        className="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        className="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        className="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        className="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        className="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        className="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        className="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        className="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+      </div>
+      <div
+        className="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          className="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+    </section>
+  </main>
 </main>
 `;

@@ -1,40 +1,47 @@
-import {useEffect, useState } from "react";
-import {MazeContainer, Tile, Cube, Message} from "./styles";
-import Avatar from "@/components/Avatar";
+import {useEffect} from "react";
+
 import useMaze from "../../hooks/useMaze";
 import {MAZE_MATRIX as grid, STATUS} from "../../constants";
+import {fetchingData} from "../../actions";
+
+import Avatar from "@/components/Avatar";
+import {
+    MazeWrapper,
+    MazeContainer,
+    Row,
+    Cube,
+    Moves,
+    MovesCount,
+} from "./styles";
 
 const Maze = () => {
-    const { state } = useMaze()
-    const [finishWaze, setFinishWaze] = useState('')
+    const { playerPosition } = useMaze()
 
     useEffect(() => {
-        if(state && state.x === 11 && state.y === 10){
-            console.log(STATUS)
-            setFinishWaze(`Great! You're free 🎉`)
-        } else {
-            setFinishWaze('')
+        if(playerPosition.x === 11 && playerPosition.y === 10){
+            try{
+                fetchingData()
+                alert(STATUS.message)
+            } catch (e){
+                console.log(e)
+            }
         }
-    }, [state])
+    }, [playerPosition])
 
     return(
-        <>
-            <MazeContainer id='maze-container'>
-                {state && <Avatar x={state.x} y={state.y} />}
-                {grid.map((subArray, idx) => {
-                    return (
-                        <Tile key={idx}>
-                            {subArray.map((subItem, idx) => {
-                                return (
-                                    <Cube key={idx} bg={subItem} />
-                                )
-                            })}
-                        </Tile>
-                    )
-                })}
+        <MazeWrapper>
+            <Moves><MovesCount>moves: {playerPosition.moves}</MovesCount></Moves>
+            <MazeContainer>
+                <Avatar position={playerPosition} />
+                {grid.map((subArray, idx) => (
+                    <Row key={idx}>
+                        {subArray.map((subItem, idx) => (
+                            <Cube key={idx} bg={subItem} />
+                        ))}
+                    </Row>
+                ))}
             </MazeContainer>
-            {finishWaze ? <Message>{finishWaze}</Message> : null}
-        </>
+        </MazeWrapper>
     )
 }
 

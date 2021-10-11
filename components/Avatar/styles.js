@@ -4,11 +4,11 @@ export const AvatarContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 2.5rem;
+  width: 3.25rem;
   height: 2.5rem;
   position: absolute;
   z-index: 10;
-  left: ${({ x }) => x * 2.5 +'rem'};
+  left: ${({ x }) => x * 3.25 +'rem'};
   top: ${({ y }) => y * 2.5 +'rem'};
 `
 
