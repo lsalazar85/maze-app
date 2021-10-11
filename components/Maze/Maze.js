@@ -1,7 +1,7 @@
-import {useEffect} from "react";
+import {useEffect, useCallback} from "react";
 
 import useMaze from "../../hooks/useMaze";
-import {MAZE_MATRIX as grid, STATUS} from "../../constants";
+import {MAZE_MATRIX as grid} from "../../constants";
 import {fetchingData} from "../../actions";
 
 import Avatar from "@/components/Avatar";
@@ -17,16 +17,20 @@ import {
 const Maze = () => {
     const { playerPosition } = useMaze()
 
-    useEffect(() => {
-        if(playerPosition.x === 11 && playerPosition.y === 10){
+    const isGameOver = useCallback(async (player) => {
+        if(player.x === 11 && player.y === 10){
             try{
-                fetchingData()
-                alert(STATUS.message)
+                await fetchingData(player.moves)
+                alert("You're doing it great! 🎉")
             } catch (e){
                 console.log(e)
             }
         }
-    }, [playerPosition])
+    }, [])
+
+    useEffect(() => {
+        playerPosition && isGameOver(playerPosition);
+    }, [isGameOver, playerPosition])
 
     return(
         <MazeWrapper>

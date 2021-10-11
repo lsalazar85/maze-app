@@ -12,8 +12,3 @@ export const MAZE_MATRIX = [
     [1,0,0,0,1,0,0,0,1,0,0,0],
     [1,1,1,1,1,1,1,1,1,1,1,1],
 ]
-
-export const STATUS = {
-    "status": "OK",
-    "message": "You're doing it great!"
-}

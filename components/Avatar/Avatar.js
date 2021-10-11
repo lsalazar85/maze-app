@@ -1,4 +1,5 @@
 import { AvatarContainer, AvatarIcon } from "./styles";
+import { object } from 'prop-types'
 
 const Avatar = ({ position }) => {
     return(
@@ -6,6 +7,10 @@ const Avatar = ({ position }) => {
             <AvatarIcon />
         </AvatarContainer>
     )
+}
+
+Avatar.propTypes = {
+    position: object.isRequired,
 }
 
 export default Avatar
