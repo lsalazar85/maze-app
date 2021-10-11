@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+export const MazeWrapper = styled.main`
+  display: flex;
+  flex-direction: column;
+`
+
 export const MazeContainer = styled.section`
   width: 30rem;
   height: 30rem;
@@ -27,4 +32,13 @@ export const Message = styled.span`
   font-weight: 700;
   position: absolute;
   bottom: 4rem;
+`
+
+export const Moves = styled.div`
+  display: flex;
+  justify-content: flex-end;
+`
+
+export const MovesCount = styled.span`
+    font-weight: 700;
 `

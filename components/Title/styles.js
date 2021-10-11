@@ -4,7 +4,7 @@ export const TitleContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2.2rem;
+  margin-bottom: 2rem;
 `
 
 export const H1Element = styled.h1`
