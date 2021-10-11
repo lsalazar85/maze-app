@@ -20,7 +20,6 @@ Starts on `http://localhost:3000`
 * Modern Javascript ( ES6 )
 * Next.js
 * React.js
-* React Context State
 * React Testing Library & Jest
 * Styled-Components
 
