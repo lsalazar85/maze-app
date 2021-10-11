@@ -31,12 +31,12 @@ const useMaze = () => {
                 setPlayerPosition(player => ({...player, y: --player.y, moves: ++player.moves}))
                 break
         }
-    }, [playerPosition])
+    }, [playerPosition.x, playerPosition.y, setPlayerPosition])
 
     useEffect (() => {
         document.addEventListener("keydown", handleKeyPress)
         return () => document.removeEventListener("keydown", handleKeyPress)
-    }, [playerPosition])
+    }, [handleKeyPress, playerPosition])
 
     return { playerPosition }
 }
