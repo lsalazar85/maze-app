@@ -1,4 +1,4 @@
-import {useEffect, useState } from "react";
+import {useEffect, useState} from "react";
 
 import useMaze from "../../hooks/useMaze";
 import {MAZE_MATRIX as grid, STATUS} from "../../constants";
@@ -7,11 +7,11 @@ import Avatar from "@/components/Avatar";
 import {
     MazeWrapper,
     MazeContainer,
-    Tile,
+    Row,
     Cube,
     Message,
     Moves,
-    MovesCount
+    MovesCount,
 } from "./styles";
 
 const Maze = () => {
@@ -34,17 +34,13 @@ const Maze = () => {
             </Moves>
             <MazeContainer id='maze-container'>
                 <Avatar x={playerPosition.x} y={playerPosition.y} />
-                {grid.map((subArray, idx) => {
-                    return (
-                        <Tile key={idx}>
-                            {subArray.map((subItem, idx) => {
-                                return (
-                                    <Cube key={idx} bg={subItem} />
-                                )
-                            })}
-                        </Tile>
-                    )
-                })}
+                {grid.map((subArray, idx) => (
+                    <Row key={idx}>
+                        {subArray.map((subItem, idx) => (
+                            <Cube key={idx} bg={subItem} />
+                        ))}
+                    </Row>
+                ))}
             </MazeContainer>
             {finishWaze ? <Message>{finishWaze}</Message> : null}
         </MazeWrapper>
