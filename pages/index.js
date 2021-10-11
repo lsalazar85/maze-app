@@ -8,14 +8,14 @@ import useMaze from "../hooks/useMaze";
 import { Main } from "./styles";
 
 const Home = () => {
-    const { state } = useMaze()
+    const { playerPosition  } = useMaze()
     return(
         <Main>
             <Head>
                 <title>Maze App</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            {!state ? (
+            {!playerPosition  ? (
                 <Loader/>
             ) : (
                 <>

@@ -1,44 +1,41 @@
-import { useContext } from "react";
-import { useEffect, useReducer} from "react";
+import { useEffect, useState} from "react";
 import { MAZE_MATRIX as maze } from "../constants";
-import MainContext from "../context/MainContext";
-
-const reducer =  (state, { type, payload }) => {
-    switch(type) {
-        case 'keyPress': {
-            if(payload === "ArrowRight"){
-               return  {...state, x: state && state.x + 1}
-            }
-
-            if(payload === "ArrowLeft"){
-                return  {...state, x: state && state.x - 1}
-            }
-
-            if(payload === "ArrowDown"){
-                return  {...state, y: state && state.y + 1}
-            }
-
-            if(payload === "ArrowUp"){
-                return  {...state, y: state && state.y - 1}
-            }
-            break
-        }
-        default:
-            return state
-    }
-}
 
 const useMaze = () => {
-    const { position } = useContext(MainContext)
-    const [state, dispatch] = useReducer(reducer, position);
+    const [playerPosition, setPlayerPosition] = useState({ x: 1, y: 0 })
 
     useEffect (() => {
-        const handleKeyPress = ({ key }) => dispatch({ type: 'keyPress', payload: key })
+        const handleKeyPress = e => {
+            switch(e.key){
+                case "ArrowRight":
+                    playerPosition.x !== maze.length - 1 &&
+                    !maze[playerPosition.y][playerPosition.x + 1] &&
+                    setPlayerPosition(player => ({...player, x: ++player.x}))
+                    break
+
+                case "ArrowLeft":
+                    !maze[playerPosition.y][playerPosition.x - 1] &&
+                    setPlayerPosition(player => ({...player, x: --player.x}))
+                    break
+
+                case "ArrowDown":
+                    playerPosition.y !== maze.length -1 &&
+                    !maze[playerPosition.y + 1][playerPosition.x] &&
+                    setPlayerPosition(player => ({...player, y: ++player.y}))
+                    break
+
+                case "ArrowUp":
+                    playerPosition.y !== 0 &&
+                    !maze[playerPosition.y - 1][playerPosition.x] &&
+                    setPlayerPosition(player => ({...player, y: --player.y}))
+                    break
+            }
+        }
         document.addEventListener("keydown", handleKeyPress)
         return () => document.removeEventListener("keydown", handleKeyPress)
-    }, [state])
+    }, [playerPosition])
 
-    return { state }
+    return { playerPosition }
 }
 
 export default useMaze
