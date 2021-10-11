@@ -19,18 +19,20 @@ const Maze = () => {
 
     useEffect(() => {
         if(playerPosition.x === 11 && playerPosition.y === 10){
-            fetchingData()
-            alert(STATUS.message)
+            try{
+                fetchingData()
+                alert(STATUS.message)
+            } catch (e){
+                console.log(e)
+            }
         }
     }, [playerPosition])
 
     return(
         <MazeWrapper>
-            <Moves>
-                <MovesCount>moves: {playerPosition.moves}</MovesCount>
-            </Moves>
-            <MazeContainer id='maze-container'>
-                <Avatar x={playerPosition.x} y={playerPosition.y} />
+            <Moves><MovesCount>moves: {playerPosition.moves}</MovesCount></Moves>
+            <MazeContainer>
+                <Avatar position={playerPosition} />
                 {grid.map((subArray, idx) => (
                     <Row key={idx}>
                         {subArray.map((subItem, idx) => (

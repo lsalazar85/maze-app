@@ -2,499 +2,511 @@
 
 exports[`Maze should render correctly 1`] = `
 <DocumentFragment>
-  <section
-    class="styles__MazeContainer-sc-1w8rlqt-0 jwpBe"
-    id="maze-container"
+  <main
+    class="styles__MazeWrapper-sc-1w8rlqt-0 cVvARo"
   >
     <div
-      class="styles__AvatarContainer-sc-djljgk-0 cNDNbf"
-      x="1"
-      y="0"
+      class="styles__Moves-sc-1w8rlqt-4 evCIVo"
+    >
+      <span
+        class="styles__MovesCount-sc-1w8rlqt-5 gBCDKc"
+      >
+        moves: 0
+      </span>
+    </div>
+    <section
+      class="styles__MazeContainer-sc-1w8rlqt-1 dxngsq"
     >
       <div
-        class="styles__AvatarIcon-sc-djljgk-1 jJTRkd"
-      />
-    </div>
-    <div
-      class="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      class="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      class="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      class="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      class="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      class="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      class="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      class="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      class="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      class="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-    <div
-      class="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 eiahNt"
-      />
-    </div>
-    <div
-      class="styles__Tile-sc-1w8rlqt-1 cjzEVC"
-    >
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-      <div
-        class="styles__Cube-sc-1w8rlqt-2 gVXluV"
-      />
-    </div>
-  </section>
+        class="styles__AvatarContainer-sc-djljgk-0 fhuxRF"
+        x="1"
+        y="0"
+      >
+        <div
+          class="styles__AvatarIcon-sc-djljgk-1 lhygVp"
+        />
+      </div>
+      <div
+        class="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        class="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        class="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        class="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        class="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        class="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        class="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        class="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        class="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        class="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+      <div
+        class="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 eecYHy"
+        />
+      </div>
+      <div
+        class="styles__Row-sc-1w8rlqt-2 bcEcFj"
+      >
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+        <div
+          class="styles__Cube-sc-1w8rlqt-3 kjSNVW"
+        />
+      </div>
+    </section>
+  </main>
 </DocumentFragment>
 `;

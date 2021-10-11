@@ -1,8 +1,8 @@
 import { AvatarContainer, AvatarIcon } from "./styles";
 
-const Avatar = ({ x, y }) => {
+const Avatar = ({ position }) => {
     return(
-        <AvatarContainer x={x} y={y}>
+        <AvatarContainer x={position.x} y={position.y}>
             <AvatarIcon />
         </AvatarContainer>
     )
