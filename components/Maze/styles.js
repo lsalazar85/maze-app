@@ -27,13 +27,6 @@ export const Cube = styled.div`
   background: ${({ bg }) => bg ? '#000000' : '#ffffff'};
 `
 
-export const Message = styled.span`
-  font-size: 1rem;
-  font-weight: 700;
-  position: absolute;
-  bottom: 4rem;
-`
-
 export const Moves = styled.div`
   display: flex;
   justify-content: flex-end;

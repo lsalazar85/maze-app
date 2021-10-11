@@ -1,7 +1,8 @@
-import {useEffect, useState} from "react";
+import {useEffect} from "react";
 
 import useMaze from "../../hooks/useMaze";
 import {MAZE_MATRIX as grid, STATUS} from "../../constants";
+import {fetchingData} from "../../actions";
 
 import Avatar from "@/components/Avatar";
 import {
@@ -9,21 +10,17 @@ import {
     MazeContainer,
     Row,
     Cube,
-    Message,
     Moves,
     MovesCount,
 } from "./styles";
 
 const Maze = () => {
     const { playerPosition } = useMaze()
-    const [finishWaze, setFinishWaze] = useState('')
 
     useEffect(() => {
         if(playerPosition.x === 11 && playerPosition.y === 10){
-            console.log(STATUS)
-            setFinishWaze(`Great! You're free 🎉`)
-        } else {
-            setFinishWaze('')
+            fetchingData()
+            alert(STATUS.message)
         }
     }, [playerPosition])
 
@@ -42,7 +39,6 @@ const Maze = () => {
                     </Row>
                 ))}
             </MazeContainer>
-            {finishWaze ? <Message>{finishWaze}</Message> : null}
         </MazeWrapper>
     )
 }
