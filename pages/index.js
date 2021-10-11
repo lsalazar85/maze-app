@@ -1,8 +1,7 @@
 import Head from 'next/head'
-
 import Maze from "@/components/Maze";
 import Title from "@/components/Title";
-import { Main } from "./styles";
+import { Main } from '../styles/styles'
 
 const Home = () => {
     return(
