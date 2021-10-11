@@ -38,7 +38,6 @@ const useMaze = () => {
         return () => document.removeEventListener("keydown", handleKeyPress)
     }, [state])
 
-
     return { state }
 }
 

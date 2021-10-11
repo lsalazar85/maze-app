@@ -1,5 +1,5 @@
 import {useEffect, useState } from "react";
-import { MazeContainer, Tile, Cube, Message } from "./styles";
+import {MazeContainer, Tile, Cube, Message} from "./styles";
 import Avatar from "@/components/Avatar";
 import useMaze from "../../hooks/useMaze";
 import {MAZE_MATRIX as grid, STATUS} from "../../constants";
@@ -20,7 +20,7 @@ const Maze = () => {
     return(
         <>
             <MazeContainer id='maze-container'>
-                { state && <Avatar x={state.x} y={state.y} /> }
+                {state && <Avatar x={state.x} y={state.y} />}
                 {grid.map((subArray, idx) => {
                     return (
                         <Tile key={idx}>

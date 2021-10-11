@@ -4,17 +4,17 @@ export const AvatarContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
+  width: 2.5rem;
+  height: 2.5rem;
   position: absolute;
   z-index: 10;
-  left: ${({ x }) => x * 3.125 +'rem'};
-  top: ${({ y }) => y * 3.125 +'rem'};
+  left: ${({ x }) => x * 2.5 +'rem'};
+  top: ${({ y }) => y * 2.5 +'rem'};
 `
 
 export const AvatarIcon = styled.div`
-  width: 2rem;
-  height: 2rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 3.125rem;
   background: #7AD7A7;
-  border-radius: 3.125rem ;
 `

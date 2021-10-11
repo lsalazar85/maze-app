@@ -1,14 +1,8 @@
 import styled from "styled-components";
 
-export const MazeWrapper = styled.main`
-  display: flex;
-  flex-direction: column;
-  position: relative;
-`
-
 export const MazeContainer = styled.section`
-  width: 600px;
-  height: 600px;
+  width: 30rem;
+  height: 30rem;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -24,7 +18,7 @@ export const Tile = styled.div`
 export const Cube = styled.div`
   border: 1px solid #ffffff;
   display: flex;
-  flex: 1 1 50px;
+  flex: 1 1 2.5rem;
   background: ${({ bg }) => bg === 1 ? '#000000' : '#ffffff'};
 `
 
