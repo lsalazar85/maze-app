@@ -20,8 +20,8 @@ const Maze = () => {
     const isGameOver = useCallback(async (player) => {
         if(player.x === 11 && player.y === 10){
             try{
-                await fetchingData(player.moves)
                 alert("You're doing it great! 🎉")
+                await fetchingData(player.moves)
             } catch (e){
                 console.log(e)
             }
