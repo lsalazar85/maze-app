@@ -38,7 +38,7 @@ const useMaze = () => {
         return () => document.removeEventListener("keydown", handleKeyPress)
     }, [handleKeyPress, playerPosition])
 
-    return { playerPosition }
+    return { playerPosition, setPlayerPosition }
 }
 
 export default useMaze
