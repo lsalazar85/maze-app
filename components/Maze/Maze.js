@@ -12,10 +12,11 @@ import {
     Cube,
     Moves,
     MovesCount,
+    ButtonReset
 } from "./styles";
 
 const Maze = () => {
-    const { playerPosition } = useMaze()
+    const { playerPosition, setPlayerPosition } = useMaze()
 
     const isGameOver = useCallback(async (player) => {
         if(player.x === 11 && player.y === 10){
@@ -28,13 +29,20 @@ const Maze = () => {
         }
     }, [])
 
+    const handleReset = () => {
+        setPlayerPosition(player => ({...player, x: 1, y: 0, moves: 0}))
+    }
+
     useEffect(() => {
         playerPosition && isGameOver(playerPosition);
     }, [isGameOver, playerPosition])
 
     return(
         <MazeWrapper>
-            <Moves><MovesCount>moves: {playerPosition.moves}</MovesCount></Moves>
+            <Moves>
+                <ButtonReset onClick={handleReset}>Reset</ButtonReset>
+                <MovesCount>moves: {playerPosition.moves}</MovesCount>
+            </Moves>
             <MazeContainer>
                 <Avatar position={playerPosition} />
                 {grid.map((subArray, idx) => (

@@ -7,7 +7,7 @@ export const AvatarContainer = styled.div`
   width: 3.25rem;
   height: 2.5rem;
   position: absolute;
-  z-index: 10;
+  z-index: 1;
   left: ${({ x }) => x * 3.25 +'rem'};
   top: ${({ y }) => y * 2.5 +'rem'};
 `
